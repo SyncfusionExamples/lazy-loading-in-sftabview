@@ -6,7 +6,7 @@ For know more details about TabView: https://www.syncfusion.com/xamarin-ui-contr
 
 TabView user guide documentation: https://help.syncfusion.com/xamarin/tabbed-view/getting-started
 
-# Lazy loading JSON data manually in Xamarin.Forms ListView
+## Lazy loading JSON data manually in Xamarin.Forms ListView
 To load more items manually in the ListView, set the LoadMoreOption as Manual using the LoadMoreCommand and LoadMoreCommandParameter properties. Doing this will load more items on tapping the Load More button at the end of the list.
 
 Refer to the following code example to bind the ViewModel.LoadMoreItemsCommand to the Xamarin.Forms ListView.
@@ -62,7 +62,7 @@ private void AddProducts(int index, int count)
 }
 
 ```
-# Lazy loading JSON data automatically in Xamarin.Forms ListView
+## Lazy loading JSON data automatically in Xamarin.Forms ListView
 To load more items automatically in the ListView, set the LoadMoreOption as Auto using the LoadMoreCommand and LoadMoreCommandParameter properties. This will load more items when the scrollbar reaches the end of the list.
 
 Refer to the following code example.
